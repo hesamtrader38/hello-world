@@ -1,6 +1,4 @@
 # hello-world
-my first repository
-i want to creat new minig pool
 @@ -284,9 +284,13 @@ def get_verification_info(self) -> Dict:
                         compiler._get_solc_remappings(config["solc"]["remappings"]),
                     )
@@ -14,3 +12,4 @@ i want to creat new minig pool
                     },
                 }
                 self._flattener = Flattener(source_fp, self._name, remaps, compiler_settings)
+
